@@ -1,0 +1,167 @@
+# kaviyarasan-b-digital-marketer-portfolio
+Digital Marketer focused on SEO, paid advertising, WordPress &amp; Shopify development, social media management, analytics, and AI-driven search optimization.  View My Work
+[Kaviyarasan_Digital_Marketing_Portfolio (2).html](https://github.com/user-attachments/files/32678565/Kaviyarasan_Digital_Marketing_Portfolio.2.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaviyarasan B | Digital Marketing Portfolio</title>
+<meta name="description" content="Kaviyarasan B - Digital Marketer specializing in SEO, Google Ads, Meta Ads, WordPress, Shopify, social media and analytics.">
+<style>
+:root{
+  --bg:#07111f; --panel:#0d1b2a; --text:#eef5ff; --muted:#a9b8ca;
+  --accent:#5ee7df; --accent2:#7c83ff; --line:rgba(255,255,255,.10);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:
+radial-gradient(circle at 80% 10%,rgba(124,131,255,.18),transparent 28%),
+radial-gradient(circle at 10% 30%,rgba(94,231,223,.10),transparent 25%),var(--bg);
+color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:24px;font-size:14px;color:var(--muted)}
+.navlinks a:hover{color:var(--text)}
+.hero{padding:100px 0 80px;display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}
+.kicker{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(44px,7vw,78px);line-height:1.02;margin:14px 0 20px;letter-spacing:-3px}
+h1 span{background:linear-gradient(90deg,var(--accent),#9da2ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:19px;color:var(--muted);max-width:700px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:13px 20px;border-radius:12px;border:1px solid var(--line);font-weight:700}
+.btn.primary{background:linear-gradient(135deg,var(--accent),#7c83ff);color:#06101b;border:0}
+.card{background:rgba(13,27,42,.76);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.18)}
+.profile-card{text-align:center}.avatar{width:130px;height:130px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;
+background:linear-gradient(135deg,var(--accent),var(--accent2));color:#06101b;font-size:42px;font-weight:900}
+.profile-card h3{margin:8px 0 3px}.profile-card p{color:var(--muted);margin:0}
+section{padding:78px 0}.section-title{font-size:34px;margin:0 0 10px}.section-sub{color:var(--muted);max-width:720px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill h3{margin:0 0 10px}.skill p{margin:0;color:var(--muted);font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.tag{font-size:12px;padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.06);color:#dbe7f6;border:1px solid var(--line)}
+.project{display:flex;flex-direction:column;min-height:250px}.project .type{color:var(--accent);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px}
+.project h3{font-size:21px;margin:9px 0}.project p{color:var(--muted);font-size:14px}.project .tags{margin-top:auto}
+.timeline{display:grid;gap:16px}.job{display:grid;grid-template-columns:190px 1fr;gap:25px}.date{color:var(--accent);font-weight:700;font-size:14px}.job h3{margin:0}.job .company{color:var(--muted);font-size:14px}.job ul{margin:12px 0 0;padding-left:20px;color:var(--muted)}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-item{padding:20px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.03)}
+.contact-item small{display:block;color:var(--muted);margin-bottom:5px}
+footer{padding:35px 0;color:var(--muted);border-top:1px solid var(--line);font-size:13px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:70px}.grid,.edu,.contact{grid-template-columns:1fr}.job{grid-template-columns:1fr;gap:4px}.navlinks{display:none}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin">
+  <div class="logo">KAVIYARASAN<span>.</span></div>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </div>
+</div></nav>
+
+<header class="wrap hero">
+  <div>
+    <div class="kicker">Digital Marketing Portfolio</div>
+    <h1>Turning <span>Digital Strategy</span> into Growth.</h1>
+    <p>Digital Marketer focused on SEO, paid advertising, WordPress & Shopify development, social media management, analytics, and AI-driven search optimization.</p>
+    <div class="btns">
+      <a class="btn primary" href="#projects">View My Work</a>
+      <a class="btn" href="#contact">Let's Connect</a>
+    </div>
+  </div>
+  <div class="card profile-card">
+    <div class="avatar">KB</div>
+    <h3>Kaviyarasan B</h3>
+    <p>Digital Marketer</p>
+    <p>Coimbatore, India</p>
+  </div>
+</header>
+
+<main>
+<section id="about"><div class="wrap">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">I work across the digital marketing lifecycle—from website management and search optimization to paid campaigns, content, social media and performance analytics. My focus is practical execution, measurable improvement and better user experience.</p>
+  <div class="grid">
+    <div class="card skill"><h3>SEO & Search</h3><p>Traditional SEO plus AEO, AIO and GEO techniques, keyword research, technical audits and content optimization.</p></div>
+    <div class="card skill"><h3>Performance Marketing</h3><p>Meta Ads and Google-focused campaign work with attention to traffic, leads, conversions and ROI.</p></div>
+    <div class="card skill"><h3>Web & Analytics</h3><p>WordPress, Shopify, website performance, GA4, Search Console, GMB and data-led improvements.</p></div>
+    <div class="card skill"><h3>Social Media Management</h3><p>Content planning, post scheduling, social media profile management, audience engagement and performance analysis across platforms.</p></div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2 class="section-title">Skills & Tools</h2>
+  <p class="section-sub">A practical toolkit for search, advertising, websites, content and measurement.</p>
+  <div class="card">
+    <div class="tags">
+      <span class="tag">SEO</span><span class="tag">AEO</span><span class="tag">AIO</span><span class="tag">GEO</span>
+      <span class="tag">Google Ads</span><span class="tag">Meta Ads</span><span class="tag">GA4</span><span class="tag">Google Search Console</span>
+      <span class="tag">Google Business Profile</span><span class="tag">Google Merchant Center</span><span class="tag">WordPress</span><span class="tag">Shopify</span>
+      <span class="tag">SEMrush</span><span class="tag">Ubersuggest</span><span class="tag">Microsoft Clarity</span><span class="tag">Webmaster Tools</span>
+      <span class="tag">Hostinger</span><span class="tag">GoDaddy</span><span class="tag">Canva</span><span class="tag">Social Media Management</span><span class="tag">Content Planning</span><span class="tag">Post Scheduling</span><span class="tag">ChatGPT</span><span class="tag">Google AI Studio</span>
+    </div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2 class="section-title">Selected Projects</h2>
+  <p class="section-sub">Client and project experience listed in the resume, presented as a clean portfolio showcase.</p>
+  <div class="grid">
+    <div class="card project"><div class="type">Shopify</div><h3>R.A.I Hardware</h3><p>Shopify development and management, with ongoing digital marketing support.</p><div class="tags"><span class="tag">Shopify</span><span class="tag">Management</span></div></div>
+    <div class="card project"><div class="type">E-commerce</div><h3>Ramani Package Zone</h3><p>Shopify development and management for an online business presence.</p><div class="tags"><span class="tag">Shopify</span><span class="tag">E-commerce</span></div></div>
+    <div class="card project"><div class="type">SEO + Web</div><h3>MR Deepcleaners</h3><p>WordPress development with on-page, off-page and technical SEO work.</p><div class="tags"><span class="tag">WordPress</span><span class="tag">SEO</span></div></div>
+    <div class="card project"><div class="type">SEO + Social</div><h3>Newbridge</h3><p>WordPress development combined with social media management.</p><div class="tags"><span class="tag">WordPress</span><span class="tag">Social Media</span></div></div>
+    <div class="card project"><div class="type">SEO</div><h3>Nubricks.in</h3><p>SEO, WordPress management, content writing and image editing.</p><div class="tags"><span class="tag">SEO</span><span class="tag">Content</span></div></div>
+    <div class="card project"><div class="type">Ads + SEO</div><h3>What I Learn Today</h3><p>SEO and Meta Ads support focused on visibility and campaign execution.</p><div class="tags"><span class="tag">SEO</span><span class="tag">Meta Ads</span></div></div>
+    <div class="card project"><div class="type">SEO + Ads</div><h3>Vinsup Infotech</h3><p>SEO, blog writing and Meta Ads campaign support.</p><div class="tags"><span class="tag">SEO</span><span class="tag">Blog Writing</span></div></div>
+    <div class="card project"><div class="type">Social Media</div><h3>Social Media Management</h3><p>Content planning, creative coordination, post scheduling, profile management and performance tracking for client social media activities.</p><div class="tags"><span class="tag">Social Media</span><span class="tag">Content</span><span class="tag">Analytics</span></div></div>
+    <div class="card project"><div class="type">Local Marketing</div><h3>AM Service</h3><p>Google Business Profile (GMB) management and local visibility support.</p><div class="tags"><span class="tag">GMB</span><span class="tag">Local SEO</span></div></div>
+    <div class="card project"><div class="type">SEO + Web</div><h3>Srikbgoshala.org</h3><p>WordPress development and on-page, off-page and technical SEO.</p><div class="tags"><span class="tag">WordPress</span><span class="tag">Technical SEO</span></div></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2 class="section-title">Experience</h2>
+  <div class="timeline">
+    <div class="card job">
+      <div><div class="date">06/2026 – Present</div><div class="company">Coimbatore</div></div>
+      <div><h3>Digital Marketing Lead</h3><div class="company">Brmha.com</div>
+        <ul><li>Develop and maintain WordPress and Shopify websites with responsive design, speed optimization and UX focus.</li>
+        <li>Plan and execute on-page/off-page SEO, keyword research and technical optimization.</li>
+        <li>Manage Meta Ads campaigns and social media activities for multiple clients.</li>
+        <li>Track performance with Google Analytics and Search Console and implement improvements.</li>
+        <li>Use GEO and AEO techniques to improve visibility across traditional and AI-driven search.</li></ul>
+      </div>
+    </div>
+    <div class="card job">
+      <div><div class="date">Earlier Experience</div></div>
+      <div><h3>SEO Analyst</h3><div class="company">SEO, analytics and technical optimization</div>
+        <ul><li>Conducted keyword research and tailored on-page SEO strategies.</li><li>Monitored performance using Google Analytics, Search Console and SEMrush.</li><li>Performed technical audits and resolved website issues using SEMrush.</li><li>Supported social media profiles as part of SEO efforts.</li></ul>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2 class="section-title">Education & Certifications</h2>
+  <div class="edu">
+    <div class="card"><h3>Digital Marketing</h3><p>Vinsupskill Academy · 04/04/2026</p><p class="section-sub">SEO, WordPress, Google Ads, Meta Ads, Social Media Marketing, Email Marketing and more.</p></div>
+    <div class="card"><h3>Bachelor of Pharmacy</h3><p>Sri Abirami College of Pharmacy, M.G.R. Medical University · 2020–2025</p></div>
+    <div class="card"><h3>Certificates</h3><p>Certificate of Digital Marketing – Vinsupskill Academy (1-month internship)</p><p>Social Media Marketing – HubSpot</p></div>
+    <div class="card"><h3>Languages</h3><p>Tamil · English · Malayalam</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2 class="section-title">Let's Work Together</h2>
+  <p class="section-sub">Looking for digital marketing support, SEO, website management, paid ads or social media execution?</p>
+  <div class="contact">
+    <a class="contact-item" href="mailto:Kaviysan0106@gmail.com"><small>Email</small>Kaviysan0106@gmail.com</a>
+    <a class="contact-item" href="tel:+918438636334"><small>Phone</small>+91 8438636334</a>
+    <div class="contact-item"><small>Location</small>Coimbatore, India</div>
+    <div class="contact-item"><small>Specialization</small>SEO · Ads · Social Media · Web · Analytics</div>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Kaviyarasan B · Digital Marketing Portfolio</div></footer>
+</body>
+</html>
